@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 3.053rem; /* 48.8px */
+}
+
+h2 {
+  font-size: 2.442rem; /* 39.04px */
+}
+
+h3 {
+  font-size: 1.954rem; /* 31.2px */
+}
+
+h4 {
+  font-size: 1.563rem; /* 24.96px */
+}
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+}
+
+small {
+  font-size: 0.8rem; /* 12.8px */
+}
+
+:root {
+  --clr-text-50: #f6efef;
+  --clr-text-100: #ecdfdf;
+  --clr-text-200: #dabebe;
+  --clr-text-300: #c79e9e;
+  --clr-text-400: #b57d7d;
+  --clr-text-500: #a25d5d;
+  --clr-text-600: #824a4a;
+  --clr-text-700: #613838;
+  --clr-text-800: #412525;
+  --clr-text-900: #201313;
+  --clr-text-950: #100909;
+
+  --clr-background-50: #f2f2f2;
+  --clr-background-100: #e6e6e6;
+  --clr-background-200: #cccccc;
+  --clr-background-300: #b3b3b3;
+  --clr-background-400: #999999;
+  --clr-background-500: #808080;
+  --clr-background-600: #666666;
+  --clr-background-700: #4d4d4d;
+  --clr-background-800: #333333;
+  --clr-background-900: #1a1a1a;
+  --clr-background-950: #0d0d0d;
+
+  --clr-primary-50: #f6efef;
+  --clr-primary-100: #eddedf;
+  --clr-primary-200: #dabebe;
+  --clr-primary-300: #c89d9e;
+  --clr-primary-400: #b67c7d;
+  --clr-primary-500: #a35c5d;
+  --clr-primary-600: #83494a;
+  --clr-primary-700: #623738;
+  --clr-primary-800: #412525;
+  --clr-primary-900: #211213;
+  --clr-primary-950: #100909;
+
+  --clr-secondary-50: #fbeaea;
+  --clr-secondary-100: #f7d4d4;
+  --clr-secondary-200: #efa9a9;
+  --clr-secondary-300: #e77e7e;
+  --clr-secondary-400: #de5454;
+  --clr-secondary-500: #d62929;
+  --clr-secondary-600: #ab2121;
+  --clr-secondary-700: #811818;
+  --clr-secondary-800: #561010;
+  --clr-secondary-900: #2b0808;
+  --clr-secondary-950: #150404;
+
+  --clr-accent-50: #edfbea;
+  --clr-accent-100: #dbf7d4;
+  --clr-accent-200: #b6eeaa;
+  --clr-accent-300: #92e67f;
+  --clr-accent-400: #6edd55;
+  --clr-accent-500: #49d52a;
+  --clr-accent-600: #3baa22;
+  --clr-accent-700: #2c8019;
+  --clr-accent-800: #1d5511;
+  --clr-accent-900: #0f2b08;
+  --clr-accent-950: #071504;
+}
